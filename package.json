@@ -1,0 +1,32 @@
+{
+	"name": "@w0s/tsconfig",
+	"version": "1.0.0",
+	"description": "TSConfig file used on w0s.jp",
+	"keywords": [
+		"tsconfig"
+	],
+	"homepage": "https://github.com/SaekiTominaga/tsconfig#readme",
+	"bugs": {
+		"url": "https://github.com/SaekiTominaga/tsconfig/issues"
+	},
+	"license": "MIT",
+	"author": "Saeki Tominaga",
+	"files": [
+		""
+	],
+	"main": "tsconfig.json",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/SaekiTominaga/tsconfig.git"
+	},
+	"scripts": {
+		"test": "tsc --project __tests__/tsconfig-valid.json",
+		"test-invalid": "tsc --project __tests__/tsconfig-invalid.json"
+	},
+	"devDependencies": {
+		"typescript": "^4.9.3"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
+}
