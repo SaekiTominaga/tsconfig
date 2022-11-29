@@ -5,8 +5,9 @@ on:
       - main
     paths:
       - 'tsconfig.json'
+      - '__tests__/@types/*.d.ts'
+      - '__tests__/valid/**/*.ts'
       - '__tests__/tsconfig-valid.json'
-      - '__tests__/src/valid/**/*.ts'
 
 jobs:
   build:
